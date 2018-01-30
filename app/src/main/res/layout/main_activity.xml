@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <wxy.com.ibrary.widget.TakenInputView
+        app:tv_text="用户姓名"
+        app:tv_text_corlr="@color/text_color"
+        app:tv_width="80dp"
+        app:tv_text_size="15dp"
+        app:ed_hint_text="请输入用户姓名"
+        app:ed_text_size="15dp"
+        app:ed_bg="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="1.左边textView默认文字，字体颜色，字体大小,textView占据的宽度"
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="2.右边EditView默认文字，字体颜色，字体大小,Hint文字，背景颜色"
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

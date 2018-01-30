@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TakenInputView">
+        <attr name="tv_text_size" format="dimension" /><!--左边文字大小-->
+        <attr name="tv_text_corlr" format="color" /><!--左边文字颜色-->
+        <attr name="tv_text" format="string" /><!--左边文字内容-->
+        <attr name="ed_text_size" format="dimension" />
+        <attr name="ed_text_corlr" format="color" />
+        <attr name="ed_hint_text" format="string" />
+        <attr name="ed_bg" format="reference"/>
+        <attr name="tv_width"  format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="TakenPhotoView">
+        <attr name="error_icon"  format="reference"/><!--加载失败图片-->
+        <attr name="holder" format="reference"/><!--加载中图片-->
+        <attr name="src" format="reference"/><!--照片默认图片-->
+        <attr name="album" format="boolean"/><!--true 进入相册，false直接进入摄像机-->
+        <attr name="request_code" format="integer"/> <!--每次调用相机的requestCode 必须填写-->
+        <attr name="tips_size" format="dimension"/><!--图片下面提示文字的大小-->
+        <attr name="tips_color" format="color"/> <!--图片下面文字的颜色-->
+        <attr name="tip_show" format="boolean"/> <!--是否隐藏tips-->
+        <attr name="tip_text" format="string"/><!--提示文字-->
+    </declare-styleable>
+</resources>
