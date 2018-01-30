@@ -24,6 +24,7 @@
             android:id="@+id/right_edit_view"
             android:textSize="16dp"
             android:hint="2017-05-18"
+            android:singleLine="true"
             android:background="@null"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
