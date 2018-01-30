@@ -7,31 +7,7 @@
         android:text="点击拍照"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <wxy.com.ibrary.widget.TakenPhotoView
-        android:id="@+id/ivPhoto"
-        android:src="@mipmap/default_image"
-        app:holder="@mipmap/default_image"
-        app:error_icon="@mipmap/default_image"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:album="true"
-        app:request_code="100"
-        android:layout_width="120dp"
-        android:layout_height="100dp" />
-    <wxy.com.ibrary.widget.TakenPhotoView
-        android:layout_marginTop="10dp"
-        android:id="@+id/ivPhoto2"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        app:request_code="101"
-        app:album="false"
-        app:tips_size="14dp"
-        android:src="@mipmap/default_image"
-        app:holder="@mipmap/default_image"
-        app:error_icon="@mipmap/default_image"
-        android:layout_width="110dp"
-        android:layout_height="120dp"
-        app:tip_show="true"
-        app:tip_text="测试提示"
-      />
+
     <TextView
         android:id="@+id/text1"
         android:layout_marginTop="10dp"
